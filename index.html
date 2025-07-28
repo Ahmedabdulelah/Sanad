@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="سند – رفيقك الدراسي لطلاب الشهادة السودانية: مكتبة رقمية، دروس مباشرة، اختبارات ذكية وإرشاد خبراء">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-[#FAF3E0] text-[#3E2C1C] antialiased relative">
+
+    <header class="fixed top-0 left-0 w-full h-24 bg-[#FAF3E0] shadow-md z-50">
+        <div class="container mx-auto flex items-center justify-between h-full px-6">
+            <a href="#app-promo"
+                class="hidden md:inline-block bg-[#0E4429] text-[#FAF3E0] px-4 py-2 rounded-lg hover:bg-[#E2C290] transition">
+                احصل على التطبيق
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 font-medium">
+                <a href="#hero" class="text-[#3E2C1C] hover:text-[#0E4429]">الرئيسية</a>
+                <a href="#stats" class="text-[#3E2C1C] hover:text-[#0E4429]">الإحصائيات</a>
+                <a href="#features" class="text-[#3E2C1C] hover:text-[#0E4429]">المميزات</a>
+                <a href="#teachers" class="text-[#3E2C1C] hover:text-[#0E4429]">المعلمين</a>
+                <a href="#faq" class="text-[#3E2C1C] hover:text-[#0E4429]">الأسئلة الشائعة</a>
+                <a href="#app-promo" class="text-[#3E2C1C] hover:text-[#0E4429]">تحميل</a>
+            </nav> 
+
+            <a href="#hero" class="flex items-center gap-3">
+                <img src="image/Logo.png" alt="سند" class="h-20 md:h-24 w-auto object-contain">
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-24 fade-in">
+
+        <section id="hero" class="bg-[#0E4429] text-[#FAF3E0] text-center py-16 px-6" data-aos="fade-up">
+            <div class="container mx-auto max-w-2xl space-y-6">
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
+                    سند – رفيق دراستك
+                </h1>
+                <p class="text-lg md:text-xl">
+                    تميز في امتحاناتك مع موارد سند: كتب، دروس مباشرة، اختبارات ذكية، وإرشاد من معلمين
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#app-promo"
+                        class="inline-block px-6 py-3 font-semibold bg-[#E2C290] text-[#0E4429] rounded-lg shadow hover:bg-[#E2C290]/90 transition">
+                        Google play تحميل من
+                    </a>
+                    <a href="#app-promo"
+                        class="inline-block px-6 py-3 font-semibold border-2 border-[#E2C290] text-[#E2C290] rounded-lg hover:bg-[#E2C290]/20 transition">
+                        App Store تحميل من
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="py-12 bg-[#FAF3E0]" data-aos="fade-up" data-aos-delay="100">
+            <div class="container mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-3 text-center gap-8">
+                <div>
+                    <h3 class="text-4xl font-bold text-[#0E4429]">+10K</h3>
+                    <p class="text-[#3E2C1C]">طلاب سعداء</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold text-[#0E4429]">+500</h3>
+                    <p class="text-[#3E2C1C]">جلسات مباشرة</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold text-[#0E4429]">+1K</h3>
+                    <p class="text-[#3E2C1C]">اختبارات ذكية</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" dir="rtl" class="py-12 bg-[#FAF3E0]" data-aos="fade-up" data-aos-delay="200">
+            <div class="container mx-auto max-w-5xl text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#0E4429]">مميزاتٌ مُفصَّلةٌ للنجاح</h2>
+                <p class="mt-4 text-[#3E2C1C]">
+                    أدواتٌ شاملةٌ لتسهيل تحضيرك وجعله أكثر فعالية
+                </p>
+            </div>
+
+            <div class="container mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-xl transition text-right"
+                    data-aos="zoom-in">
+                    <div class="text-4xl mb-4 text-[#0E4429]">📘</div>
+                    <h3 class="text-xl font-semibold mb-2 text-[#3E2C1C]">المكتبة الرقمية</h3>
+                    <p>مواردٌ محدثةٌ، ملخصاتٌ ذكيةٌ، وتسجيلٌ لملاحظاتك</p>
+                </div>
+
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-xl transition text-right"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-4xl mb-4 text-[#0E4429]">🎥</div>
+                    <h3 class="text-xl font-semibold mb-2 text-[#3E2C1C]">دروسٌ مباشرة</h3>
+                    <p>جلساتٌ تفاعليةٌ مع معلمين خبراء عبر زووم/جوجل ميت</p>
+                </div>
+
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-xl transition text-right"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-4xl mb-4 text-[#0E4429]">🧠</div>
+                    <h3 class="text-xl font-semibold mb-2 text-[#3E2C1C]">اختباراتٌ ذكية</h3>
+                    <p>تدرب بذكاءٍ باستخدام اختباراتٍ مدعومةٍ بالذكاء الاصطناعي</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="teachers" class="py-12 bg-[#FAF3E0]" data-aos="fade-up" data-aos-delay="300">
+            <div class="container mx-auto max-w-4xl text-center mb-8">
+                <h2 class="text-4xl font-extrabold text-[#0E4429] mb-4">تعلم من أفضل المعلمين</h2>
+                <p class="text-[#3E2C1C]">
+                    خبراؤنا المتخصصون في منهج الشهادة السودانية سيرشدونك في كل خطوة
+                </p>
+            </div>
+            <div class="container mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
+
+                <div class="group p-6 bg-[#FAF3E0] rounded-3xl border-2 border-[#D4AF37] shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition text-center"
+                    data-aos="flip-left">
+                    <div
+                        class="mx-auto mb-4 w-16 h-16 bg-[#0E4429] rounded-full flex items-center justify-center text-2xl font-bold text-[#FAF3E0]">
+                        م</div>
+                    <h3 class="text-xl font-semibold mb-1 text-[#3E2C1C]">مهاجر عبد الرحمن</h3>
+                    <p class="text-[#3E2C1C] mb-3">رياضيات</p>
+                    <div class="flex items-center justify-center mb-4">
+                        <span class="text-[#D4AF37] text-2xl mr-1">★</span>
+                        <span class="text-[#3E2C1C]">4.8</span>
+                        <span class="text-[#3E2C1C]/70 ml-1">(150)</span>
+                    </div>
+                    <a href="#"
+                        class="inline-block px-5 py-2 bg-[#E2C290] text-[#0E4429] rounded-full font-medium hover:bg-[#E2C290]/90 transition">
+                        عرض الدروس
+                    </a>
+                </div>
+
+                <div class="group p-6 bg-[#FAF3E0] rounded-3xl border-2 border-[#D4AF37] shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition text-center"
+                    data-aos="flip-left" data-aos-delay="100">
+                    <div
+                        class="mx-auto mb-4 w-16 h-16 bg-[#0E4429] rounded-full flex items-center justify-center text-2xl font-bold text-[#FAF3E0]">
+                        مج</div>
+                    <h3 class="text-xl font-semibold mb-1 text-[#3E2C1C]">مجدي سيتا</h3>
+                    <p class="text-[#3E2C1C] mb-3">فيزياء</p>
+                    <div class="flex items-center justify-center mb-4">
+                        <span class="text-[#D4AF37] text-2xl mr-1">★</span>
+                        <span class="text-[#3E2C1C]">4.7</span>
+                        <span class="text-[#3E2C1C]/70 ml-1">(840)</span>
+                    </div>
+                    <a href="#"
+                        class="inline-block px-5 py-2 bg-[#E2C290] text-[#0E4429] rounded-full font-medium hover:bg-[#E2C290]/90 transition">
+                        عرض الدروس
+                    </a>
+                </div>
+
+                <div class="group p-6 bg-[#FAF3E0] rounded-3xl border-2 border-[#D4AF37] shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition text-center"
+                    data-aos="flip-left" data-aos-delay="200">
+                    <div
+                        class="mx-auto mb-4 w-16 h-16 bg-[#0E4429] rounded-full flex items-center justify-center text-2xl font-bold text-[#FAF3E0]">
+                        اد</div>
+                    <h3 class="text-xl font-semibold mb-1 text-[#3E2C1C]">إدريس جلال</h3>
+                    <p class="text-[#3E2C1C] mb-3">أحياء</p>
+                    <div class="flex items-center justify-center mb-4">
+                        <span class="text-[#D4AF37] text-2xl mr-1">★</span>
+                        <span class="text-[#3E2C1C] font-medium">4.9</span>
+                        <span class="text-[#3E2C1C]/70 ml-1">(1430)</span>
+                    </div>
+                    <a href="#"
+                        class="inline-block px-5 py-2 bg-[#E2C290] text-[#0E4429] rounded-full font-medium hover:bg-[#E2C290]/90 transition">
+                        عرض الدروس
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="faq" dir="rtl" class="py-20 bg-[#FAF3E0]" data-aos="fade-up" data-aos-delay="400">
+            <div class="container mx-auto max-w-4xl text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#0E4429] mb-4">الأسئلة الشائعة</h2>
+                <p class="text-[#3E2C1C]">أجوبة لأكثر الأسئلة شيوعًا حول سند.</p>
+            </div>
+
+            <div class="container mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
+                <details
+                    class="group bg-[#FAF3E0] p-5 rounded-lg border-2 border-[#D4AF37] shadow hover:shadow-md transition text-right">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer text-lg font-medium text-[#3E2C1C]">
+                        <span>كيف أنضم إلى الدروس المباشرة؟</span>
+                        <svg class="w-5 h-5 text-[#0E4429] transform transition-transform group-open:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="mt-3 text-[#3E2C1C]">
+                        بعد تنزيل التطبيق، انتقل إلى قسم "الدروس المباشرة"، اختر جلستك المجدولة، ثم اضغط زر “انضم الآن”.
+                    </p>
+                </details>
+
+                <details
+                    class="group bg-[#FAF3E0] p-5 rounded-lg border-2 border-[#D4AF37] shadow hover:shadow-md transition text-right"
+                    data-aos-delay="100">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer text-lg font-medium text-[#3E2C1C]">
+                        <span>هل يمكنني الوصول للمواد دون إنترنت؟</span>
+                        <svg class="w-5 h-5 text-[#0E4429] transform transition-transform group-open:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="mt-3 text-[#3E2C1C]">
+                        نعم — في قسم "المكتبة الرقمية" يمكنك تنزيل الملاحظات والملخصات لمراجعتها أوفلاين في أي وقت.
+                    </p>
+                </details>
+
+                <details
+                    class="group bg-[#FAF3E0] p-5 rounded-lg border-2 border-[#D4AF37] shadow hover:shadow-md transition text-right"
+                    data-aos-delay="200">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer text-lg font-medium text-[#3E2C1C]">
+                        <span>كيف تُخصص الاختبارات الذكية؟</span>
+                        <svg class="w-5 h-5 text-[#0E4429] transform transition-transform group-open:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="mt-3 text-[#3E2C1C]">
+                        يستخدم نظام الذكاء الاصطناعي بيانات امتحانات سابقة لتحليل مستواك وتوليد أسئلة تتناسب مع نقاط
+                        قوتك وضعفك.
+                    </p>
+                </details>
+
+                <details
+                    class="group bg-[#FAF3E0] p-5 rounded-lg border-2 border-[#D4AF37] shadow hover:shadow-md transition text-right"
+                    data-aos-delay="300">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer text-lg font-medium text-[#3E2C1C]">
+                        <span>هل تُسجل الدروس المباشرة؟</span>
+                        <svg class="w-5 h-5 text-[#0E4429] transform transition-transform group-open:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <p class="mt-3 text-[#3E2C1C]">
+                        نعم — جميع الجلسات تُسجل تلقائيًا. يمكنك مشاهدة الإعادة وقراءة الملخصات الذكية مباشرة بعد انتهاء
+                        الدرس.
+                    </p>
+                </details>
+
+            </div>
+        </section>
+
+        <section id="app-promo" class="py-20 bg-[#0E4429] text-[#FAF3E0]" data-aos="fade-up" data-aos-delay="300">
+            <div class="container mx-auto px-6 md:px-8 flex flex-col md:flex-row items-center justify-between gap-8">
+
+                <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+                    <div class="w-64 h-96 bg-[#FAF3E0] rounded-3xl shadow-lg overflow-hidden">
+                        <img src="images/app-screenshot.png" class="w-full h-full object-cover" alt="App screenshot" />
+                    </div>
+                </div>
+
+
+                <div class="w-full md:w-1/2 space-y-6 text-center md:text-right">
+                    <h2 class="text-3xl md:text-4xl font-extrabold leading-tight">
+                        خذ سند معك أينما كنت
+                    </h2>
+                    <p class="max-w-md mx-auto md:mx-0 text-[#FAF3E0]/90">
+                        حمل التطبيق للدراسة في أي وقت ومن أي مكان. شاهد دروسك واختباراتك مباشرةً من هاتفك
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-end">
+                        <a href="#"
+                            class="px-6 py-3 font-semibold bg-[#E2C290] text-[#0E4429] rounded-lg shadow-inner hover:shadow-xl hover:bg-[#D4AF37] transition-all duration-300">
+                            Google Play
+                        </a>
+                        <a href="#"
+                            class="px-6 py-3 font-semibold border-2 border-[#E2C290] text-[#E2C290] rounded-lg hover:bg-[#E2C290]/20 transition-colors duration-300">
+                            App Store
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-3 gap-6 justify-center md:justify-end mt-4 text-sm">
+                        <div class="flex flex-col items-center">
+                            <span class="text-2xl font-bold">4.8/5</span>
+                            <span class="text-[#FAF3E0]/70">App Store</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <span class="text-2xl font-bold">4.9/5</span>
+                            <span class="text-[#FAF3E0]/70">Google Play</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <span class="text-2xl font-bold">+10K</span>
+                            <span class="text-[#FAF3E0]/70">تنزيل</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section id="upcoming" class="py-12 bg-[#FAF3E0] text-right" data-aos="fade-up" data-aos-delay="500">
+            <div class="container mx-auto text-center mb-8">
+                <h2 class="text-3xl font-bold text-[#0E4429]">ترقب الميزات القادمة</h2>
+                <p class="text-[#3E2C1C]">
+                    :سنعمل مستقبلا لإضافة وظائف جديدة ومميزة. إليك ما هو قادم
+                </p>
+            </div>
+            <div class="container mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#3E2C1C] mb-2">خريطة مفاهيم تفاعلية</h3>
+                    <p class="text-[#3E2C1C]">أنشئ وحرّك خرائط تصور العلاقات بين المواضيع تلقائيًا لدعم الفهم العميق
+                        وتقوية الذاكرة</p>
+                </div>
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#3E2C1C] mb-2">علامات التقدّم</h3>
+                    <p class="text-[#3E2C1C]">اكسب شارات كلما أكملت اختباراتك ودروسك</p>
+                </div>
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#3E2C1C] mb-2">غرف الدراسة الجماعية</h3>
+                    <p class="text-[#3E2C1C]">انضم إلى مجموعات دراسة افتراضية للتعاون والتعلم مع الزملاء</p>
+                </div>
+                <div class="p-6 bg-[#FAF3E0] rounded-2xl border-2 border-[#D4AF37] shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-[#3E2C1C] mb-2">جداول دراسة مخصصة</h3>
+                    <p class="text-[#3E2C1C]">جداول ذكية مقدمة عن طريق AI تتناسب مع نقاط قوتك وضعفك</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 px-6 bg-[#FAF3E0] text-center" data-aos="fade-up" data-aos-delay="600">
+            <h2 class="text-3xl font-bold mb-4 text-[#0E4429]">تفوق في امتحاناتك مع سند</h2>
+            <p class="text-[#3E2C1C] mb-8">انضم إلى آلاف الطلاب الذين حققوا أحلامهم الأكاديمية</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#app-promo"
+                    class="bg-[#0E4429] text-[#FAF3E0] px-6 py-3 rounded-lg font-semibold hover:bg-[#E2C290] transition">
+                    ابدأ الآن
+                </a>
+                <a href="#contact"
+                    class="border-2 border-[#0E4429] text-[#0E4429] px-6 py-3 rounded-lg font-semibold hover:bg-[#0E4429]/10 transition">
+                    تواصل معنا
+                </a>
+            </div>
+        </section>
+
+
+        <footer class="bg-[#0E4429] text-[#FAF3E0] py-12" id="contact">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row-reverse md:justify-between gap-8">
+                <div class="text-right">
+                    <h3 class="text-xl font-semibold mb-4">عن سند</h3>
+                    <ul class="list-disc list-inside space-y-2 text-[#FAF3E0] text-right" dir="rtl">
+                        <li>منصة تعليمية متكاملة ترتقي بمستوى الطالب في منهج الشهادة السودانية.</li>
+                        <li>مكتبة شاملة بالكتب والملخصات والملاحظات الذكية.</li>
+                        <li>جلسات حية وتفاعلية مع نخبة من المعلمين المختصين.</li>
+                        <li>اختبارات مدعومة بالذكاء الاصطناعي لتخصيص تجربة التعلم.</li>
+                        <li>خدمات دعم فوري وجدولة دراسية مخصصة قادمة قريبًا.</li>
+                    </ul>
+                </div>
+
+
+                <div class="text-center">
+                    <h3 class="text-xl font-semibold mb-4">روابط سريعة</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="hover:text-[#FAF3E0]/80">المميزات</a></li>
+                        <li><a href="#teachers" class="hover:text-[#FAF3E0]/80">المعلمين</a></li>
+                        <li><a href="#faq" class="hover:text-[#FAF3E0]/80">الأسئلة الشائعة</a></li>
+                        <li><a href="/terms" class="hover:text-[#FAF3E0]/80">الشروط والخصوصية</a></li>
+                    </ul>
+                </div>
+
+                <div class="text-right">
+                    <h3 class="text-xl font-semibold mb-4">تواصل معنا</h3>
+                    <p>support@gmial.com:البريد الالكتروني</p>
+                    <p>رقم الهاتف: +249 123 456 789</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-8 text-[#FAF3E0]/80 text-sm">
+                &copy; 2025 جميع الحقوق محفوظة
+            </div>
+        </footer>
+
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+        const btn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (btn) {
+                if (window.scrollY > 300) btn.classList.remove('hidden');
+                else btn.classList.add('hidden');
+            }
+        });
+        btn?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    </script>
+</body>
+
+</html>
